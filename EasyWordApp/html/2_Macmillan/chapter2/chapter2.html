@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rozdział 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/main.css">
+    <link rel="stylesheet" href="../../../css/macmillan.css">
+    <link rel="stylesheet" href="../../../css/drop-menu.css">
+</head>
+<body>
+    <div id="loader-bg"></div>
+
+    <div id="cathegory">Kategoria:</div>
+    <div id="pointCounter">Punkty: <strong id="whatColor"></strong></div>
+
+    <nav>
+        <button class="hamburger" aria-label="Menu">
+             <span class="hamburger__container" tabindex="-1">
+                  <span class="hamburger__bars"></span>
+             </span>
+        </button>
+        <ul class="menu">
+             <li onclick="basic()">CAŁOŚĆ</li>
+             <li>PODSTAWA</li>
+             <li>ROZSZERZENIE</li>
+        </ul>
+   </nav>
+    
+   <img class="fireworks" id="firework" src="../../../img/fireworks.png" alt="">
+   <img class="fireworks" id="firework2" src="../../../img/fireworks.png" alt="">
+   <img class="fireworks" id="firework3" src="../../../img/fireworks.png" alt="">
+    
+    <div id="baseWord">...</div>
+    
+    <div id="picture">
+        <a href="https://www.google.pl/chrome/?brand=CHBD&gclid=CjwKCAjwp_zkBRBBEiwAndwD9ayiRmEEnDSbN1hUD5bnVb9VYCRjdh87Rm68PNSXyMi1PSjBeSkm-hoCJUcQAvD_BwE&gclsrc=aw.ds">
+            <img src="../../../img/information.png" alt="Twoja przeglądarka nie wspiera Standardu JavaScript ES6!" title="Pobierz Google Chrome!">
+        </a>
+    </div>
+    
+    <input id="userText" type="text">
+
+    <div id="nav">
+        <button id="check" onclick="getAnswer()">SPRAWDŹ</button>
+        <button id="new" onclick="getNew()">NASTĘPNY</button>
+        <div style="clear: both;"></div>
+    </div>
+
+    <div id="answer"></div>
+    <script data-main="../../../js/2_Macmillan/chapter2/index.js" src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../../../js/loader.js"></script>
+    <script src="../../../js/menu.js"></script>
+</body>
+</html>

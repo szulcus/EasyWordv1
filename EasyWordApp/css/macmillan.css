@@ -1,0 +1,25 @@
+a {
+    color: gray;
+    transition: all 0.1s ease-in;
+    text-decoration: none;
+}
+a:hover {
+    color: lightgray;
+}
+
+ul li {
+    font-size: 25px;
+}
+
+ul ul li {
+    font-size: 20px;
+}
+
+h1 {
+    color: lightgray;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: rgba(211, 211, 211, 0.65);
+}
